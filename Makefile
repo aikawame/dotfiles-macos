@@ -21,4 +21,4 @@ deploy:
 clean:
 	@echo 'dotfiles をホームディレクトリーから削除します...'
 	@-$(foreach val, $(DOTFILES), rm -rfv $(HOME)/$(val);)
-	-rm -rfv $(DOTPATH)
+	-rm -rf $(DOTPATH)
