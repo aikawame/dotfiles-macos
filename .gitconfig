@@ -1,0 +1,16 @@
+[user]
+    name = Masahiro Aikawa
+    email = aikawame@wor.jp
+
+[color]
+    ui = true
+
+[pull]
+    rebase = preserve
+
+[push]
+    default = simple
+
+[core]
+    excludesfile = ~/.gitignore
+    autocrlf = input
