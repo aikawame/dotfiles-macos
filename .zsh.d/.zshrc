@@ -63,7 +63,7 @@ PROMPT="%{[33m%}%/%%%{[m%} "
 PROMPT2="%{[33m%}%_%%%{[m%} "
 SPROMPT="%{[33m%}%r is correct? [n/y/a/e]:%{[m%} "
 [ -n "${REMOTEHOST}${SSH_CONNECTION}" ] &&
-    PROMPT="%{[37m%}${HOST%%.*} ${PROMPT}"
+    PROMPT="%{[37m%}${HOST%%.*} %{[36m%}%/%%%{[m%} "
 
 # タイトルを設定する
 case "${TERM}" in
