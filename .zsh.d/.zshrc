@@ -42,7 +42,13 @@ setopt share_history
 
 # コマンド履歴検索を設定する
 function select-history() {
-    BUFFER=`history -n 1 | tail -r | awk '!a[$0]++' | peco`
+    local tac
+    if which tac > /dev/null; then
+    tac="tac"
+    else
+        tac="tail -r"
+    fi
+    BUFFER=`history -n 1 | eval $tac | awk '!a[$0]++' | peco`
     CURSOR=$#BUFFER
     zle reset-prompt
 }
