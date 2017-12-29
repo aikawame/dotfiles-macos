@@ -1,6 +1,7 @@
 # 共通の環境変数を設定する
 export LANG=ja_JP.UTF-8
-export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/bin:/usr/bin:$PATH
+export PATH=$HOME/bin:$HOME/.rbenv/bin:/usr/local/bin:/usr/local/sbin:/bin:/usr/bin:$PATH
+eval "$(rbenv init - zsh)"
 export EDITOR='emacs'
 
 # Mac用の環境変数を設定する
