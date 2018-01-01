@@ -1,0 +1,930 @@
+{
+  "title": "Emacs key bindings",
+  "rules": [
+    {
+      "description": "C-x C-f to Open",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "o",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "C-x",
+              "value": 1
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-x C-s to Save",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "s",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "s",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "C-x",
+              "value": 1
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-x b to New tab",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "b"
+          },
+          "to": [
+            {
+              "key_code": "t",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "C-x",
+              "value": 1
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-x k to Close",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k"
+          },
+          "to": [
+            {
+              "key_code": "w",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "C-x",
+              "value": 1
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-x C-c to Quit",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "c",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "q",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "C-x",
+              "value": 1
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Enable C-x as prefix key",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "any": "key_code",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "C-x",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "x",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "C-x",
+                "value": 1
+              }
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [
+              {
+                "set_variable": {
+                  "name": "C-x",
+                  "value": 0
+                }
+              }
+            ],
+            "to_if_canceled": [
+              {
+                "set_variable": {
+                  "name": "C-x",
+                  "value": 0
+                }
+              }
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-pnbf to Up/Down/Left/Right",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "p",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "n",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "down_arrow"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "b",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_arrow"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-v to Page down",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "v",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "page_down"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "M-v to Page up",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "v",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "page_up"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-a to Home (Office Suite)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "a",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "home"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^org\\.libreoffice\\.script$",
+                "^com\\.microsoft\\.Excel$",
+                "^com\\.microsoft\\.Powerpoint$",
+                "^com\\.microsoft\\.Word$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-e to End (Office Suite)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "e",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "end"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^org\\.libreoffice\\.script$",
+                "^com\\.microsoft\\.Excel$",
+                "^com\\.microsoft\\.Powerpoint$",
+                "^com\\.microsoft\\.Word$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-s to Find forward",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "s",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "g",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-r to Find backward",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "r",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "g",
+              "modifiers": [
+                "left_shift",
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-m to Return",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "m",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "return_or_enter"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-g to Escape",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "g",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-g to Double Escape (IntelliJ)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "g",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            },
+            {
+              "key_code": "escape"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-d to Delete",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "d",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-h to Backspace",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_or_backspace"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-k to Kill",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "end",
+              "modifiers": [
+                "left_shift"
+              ]
+            },
+            {
+              "key_code": "x",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-w to Cut",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "w",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "x",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "M-w to Copy",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "w",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "c",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-y to Paste",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "y",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "v",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-/ to Undo",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "z",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "C-M-/ to Redo",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "z",
+              "modifiers": [
+                "left_shift",
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
