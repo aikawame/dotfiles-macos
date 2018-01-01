@@ -65,6 +65,9 @@ setopt list_packed
 # ビープ音を無効にする
 setopt nolistbeep
 
+# C-dによるログアウトを10回まで無視する
+setopt ignoreeof
+
 # プロンプトを設定する
 PROMPT="%{[33m%}%/%%%{[m%} "
 PROMPT2="%{[33m%}%_%%%{[m%} "
