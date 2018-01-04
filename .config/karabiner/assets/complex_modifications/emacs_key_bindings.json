@@ -148,6 +148,40 @@
       ]
     },
     {
+      "description": "C-x h to Select all",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "h"
+          },
+          "to": [
+            {
+              "key_code": "a",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "C-x",
+              "value": 1
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.jetbrains.intellij$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "C-x C-c to Quit",
       "manipulators": [
         {
