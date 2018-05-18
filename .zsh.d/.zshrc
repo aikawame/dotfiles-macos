@@ -15,6 +15,9 @@ alias ls='ls -aGF'
 alias ll='ls -la'
 alias sed='gsed'
 alias dc='docker-compose'
+function de() {
+    dc exec $1 bash
+}
 function s() {
     ssh $1 -t /bin/zsh
 }
