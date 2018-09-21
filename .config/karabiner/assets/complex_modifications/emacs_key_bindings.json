@@ -33,6 +33,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -72,6 +73,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -106,6 +108,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -140,6 +143,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -174,6 +178,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -213,6 +218,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -283,6 +289,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -314,6 +321,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -340,6 +348,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -366,6 +375,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -392,6 +402,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -423,6 +434,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -454,6 +466,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -552,6 +565,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -587,6 +601,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -618,6 +633,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -649,6 +665,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -683,6 +700,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -714,6 +732,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -745,6 +764,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -784,6 +804,7 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -817,6 +838,7 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -850,6 +872,7 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -883,6 +906,7 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -917,6 +941,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
@@ -953,6 +978,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }

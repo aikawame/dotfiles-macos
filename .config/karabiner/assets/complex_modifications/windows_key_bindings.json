@@ -28,6 +28,7 @@
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.sublimetext\\.3$",
+                "^com\\.microsoft\\.VSCode$",
                 "^com\\.jetbrains.intellij$"
               ]
             }
