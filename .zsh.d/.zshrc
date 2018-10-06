@@ -8,8 +8,8 @@ export EDITOR='emacs'
 
 # Mac用の環境変数を設定する
 export HOMEBREW_CASK_OPTS='--appdir=/Applications'
-export ANDROID_HOME=/usr/local/opt/android-sdk
-export JAVA_HOME="/usr/libexec/java_home -v 11"
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export JAVA_HOME=`  /usr/libexec/java_home -v 10`
 export PKG_CONFIG_PATH=/usr/local/opt/imagemagick@6/lib/pkgconfig
 
 # エイリアスを設定する
