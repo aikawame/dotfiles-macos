@@ -1,0 +1,6 @@
+{
+  "plugins": [
+    "/Users/aikawame/.config/yarn/global/node_modules/stylelint-scss"
+  ],
+  "extends": "/Users/aikawame/.config/yarn/global/node_modules/stylelint-config-standard"
+}
