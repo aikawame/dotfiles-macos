@@ -3,3 +3,5 @@
 ._.DS_Store
 .idea
 *.iml
+/.config/configstore/
+/.config/yarn/
