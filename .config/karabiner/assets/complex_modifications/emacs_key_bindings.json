@@ -933,6 +933,41 @@
           ]
         }
       ]
+    },
+    {
+      "description": "C-j to Quick switcher (Slack)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "japanese_eisuu"
+            },
+            {
+              "key_code": "k",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.tinyspeck\\.slackmacgap$"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
