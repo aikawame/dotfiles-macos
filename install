@@ -1,9 +1,5 @@
 #!/bin/bash
 
-echo 'bin をホームディレクトリーに展開します...'
-ln -sfnv `pwd`/bin ~/
-echo ''
-
 echo 'dotfiles をホームディレクトリーに展開します...'
 ls -1A | grep '\..*' | grep -v '\.DS_Store' | grep -v '\.idea' | while read line; do
   ln -sfnv `pwd`/$line ~/

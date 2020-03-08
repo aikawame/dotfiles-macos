@@ -3,5 +3,9 @@
 ._.DS_Store
 .idea
 *.iml
+/.aws/config
+/.aws/credentials
 /.config/configstore/
 /.config/yarn/
+/.ssh/config
+/.ssh/id_rsa*
