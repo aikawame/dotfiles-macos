@@ -1,0 +1,114 @@
+[
+  {
+    "key": "ctrl+alt+;",
+    "command": "editor.action.blockComment",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "tab",
+    "command": "editor.action.reindentselectedlines"
+  },
+  {
+    "key": "ctrl+z",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "alt+r",
+    "command": "editor.action.startFindReplaceAction"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "editor.action.toggleColumnSelection"
+  },
+  {
+    "key": "alt+;",
+    "command": "multiCommand.commentLine"
+  },
+  {
+    "key": "alt+g",
+    "command": "search.action.openNewEditor"
+  },
+  {
+    "key": "ctrl+alt+/",
+    "command": "redo",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "workbench.action.focusNextGroup"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.nextEditorInGroup"
+  },
+  {
+    "key": "alt+k alt+s",
+    "command": "workbench.action.openGlobalKeybindings"
+  },
+  {
+    "key": "ctrl+alt+k ctrl+alt+s",
+    "command": "workbench.action.openGlobalKeybindingsFile"
+  },
+  {
+    "key": "alt+,",
+    "command": "workbench.action.openSettings"
+  },
+  {
+    "key": "ctrl+alt+,",
+    "command": "workbench.action.openSettingsJson"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.previousEditorInGroup"
+  },
+  {
+    // QuickOpenで勝手に選択されるのを防ぐ
+    "key": "ctrl+n",
+    "command": "-workbench.action.quickOpenNavigateNext",
+    "when": "inQuickOpen"
+  },
+  {
+    // QuickOpenで勝手に選択されるのを防ぐ
+    "key": "ctrl+p",
+    "command": "-workbench.action.quickOpenNavigatePrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+x ctrl+c",
+    "command": "workbench.action.quit"
+  },
+  {
+    "key": "alt+k alt+t",
+    "command": "workbench.action.selectTheme"
+  },
+  {
+    "key": "alt+k alt+m",
+    "command": "workbench.extensions.action.showRecommendedKeymapExtensions"
+  },
+  {
+    "key": "ctrl+alt+d",
+    "command": "workbench.view.debug"
+  },
+  {
+    "key": "ctrl+alt+e",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "ctrl+alt+x",
+    "command": "workbench.view.extensions"
+  },
+  {
+    "key": "ctrl+alt+g",
+    "command": "workbench.view.extension.gitlens"
+  },
+  {
+    "key": "ctrl+alt+s",
+    "command": "workbench.view.scm"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "workbench.view.search",
+    "when": "!searchViewletVisible"
+  },
+]

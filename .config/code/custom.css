@@ -1,0 +1,30 @@
+/* UIのフォントサイズを小さくする */
+.monaco-workbench .part > .content {
+  font-size: 12px;
+}
+
+/* エディターのタブを複数段表示にする */
+.monaco-workbench .part.editor > .content .editor-group-container > .title.tabs > .tabs-and-actions-container > .monaco-scrollable-element {
+  height: initial !important;
+}
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container {
+  flex-wrap: wrap;
+  height: initial !important;
+}
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  border-right: 1px solid rgba(128, 128, 128, 0.5) !important;
+  flex-grow: 1;
+  height: 18px; /* TODO: 24pxにしたいが、設定エディターでコンテキストメニューを表示するとタブコンテナーがずれる */
+}
+
+/* エディター右上のボタン群を非表示にする */
+.tabs-and-actions-container .editor-actions {
+  display: none !important;
+}
+
+/* エディターのタブのフォントサイズを小さくする */
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label a,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .title-label a {
+  font-size: 11px;
+}
