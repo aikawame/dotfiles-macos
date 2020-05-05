@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "bash -c \"$(curl -L https:\/\/raw.githubusercontent.com\/aikawame\/dotfiles\/master\/install)\"",
+    "uid" : "95173E4D-1EB0-4A8D-8D56-21FF867D4214",
+    "name" : "Dotfiles install",
+    "keyword" : "dotfiles install"
+  }
+}

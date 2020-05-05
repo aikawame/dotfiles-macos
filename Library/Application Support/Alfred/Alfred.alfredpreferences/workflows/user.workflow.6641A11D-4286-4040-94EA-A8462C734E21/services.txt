@@ -1,0 +1,10 @@
+amazon.co.jp
+aws
+lastpass
+smarthr
+microsoft
+github
+twitter
+facebook
+amazon.com
+slack

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "git commit --allow-empty -m '初回コミットを行う'",
+    "uid" : "3C2EAF14-524F-452E-B8D0-1465DABA76BD",
+    "name" : "Git first commit",
+    "keyword" : "git first commit"
+  }
+}

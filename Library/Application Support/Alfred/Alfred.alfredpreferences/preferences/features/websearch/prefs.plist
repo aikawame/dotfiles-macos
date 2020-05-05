@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>10E4165C-E260-4949-A469-4A206067CE2F</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>feedly</string>
+			<key>plusSpaces</key>
+			<false/>
+			<key>text</key>
+			<string>Open Feedly</string>
+			<key>url</key>
+			<string>http://cloud.feedly.com/#latest</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>3C2E281C-58DF-4C46-B03E-428CE2B8ADF2</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>cal</string>
+			<key>plusSpaces</key>
+			<false/>
+			<key>text</key>
+			<string>Open Google Calendar</string>
+			<key>url</key>
+			<string>https://www.google.com/calendar/render</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>3F343179-7AF8-42E6-BB16-5F8E0C3F1FBE</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>news</string>
+			<key>plusSpaces</key>
+			<false/>
+			<key>text</key>
+			<string>Open News Picks</string>
+			<key>url</key>
+			<string>https://newspicks.com/#!/top-news</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>822A8546-4E3B-4083-BF77-A45EDC91AFC5</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>php</string>
+			<key>plusSpaces</key>
+			<false/>
+			<key>text</key>
+			<string>Search PHP for '{query}'</string>
+			<key>url</key>
+			<string>http://jp1.php.net/manual-lookup.php?pattern={query}&amp;scope=quickref</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>88EA33AA-9BC0-450F-A1EB-E1D316EDDF03</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>picasa</string>
+			<key>plusSpaces</key>
+			<false/>
+			<key>text</key>
+			<string>Open Picasa</string>
+			<key>url</key>
+			<string>https://picasaweb.google.com/home</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>99A2A7DA-4C9A-40BF-99E9-8B386638B07A</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>amazon</string>
+			<key>plusSpaces</key>
+			<false/>
+			<key>text</key>
+			<string>Open Amazon</string>
+			<key>url</key>
+			<string>http://www.amazon.co.jp/</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>A65E099C-42C2-4BA0-B220-6FD3F1125A44</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>facebook</string>
+			<key>plusSpaces</key>
+			<false/>
+			<key>text</key>
+			<string>Open Facebook</string>
+			<key>url</key>
+			<string>https://www.facebook.com/</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>C40D3DD7-89F0-4021-BD32-AEF9130A6136</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>maps</string>
+			<key>plusSpaces</key>
+			<false/>
+			<key>text</key>
+			<string>Open Google Maps</string>
+			<key>url</key>
+			<string>https://www.google.com/maps/@35.6977,139.7081,14z</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
