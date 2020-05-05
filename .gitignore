@@ -5,7 +5,9 @@
 *.iml
 /.aws/config
 /.aws/credentials
+/.config/anyenv/
 /.config/configstore/
 /.config/yarn/
 /.ssh/config
 /.ssh/id_rsa*
+/.ssh/known_hosts
