@@ -1,17 +1,10 @@
 # 共通の環境変数を設定する
 export LANG=ja_JP.UTF-8
-export PATH=$HOME/.anyenv/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:$PATH
-export PATH=/usr/local/opt/flutter/bin:$PATH
-export PATH=/usr/local/opt/imagemagick@6/bin:$PATH
-export PATH=/usr/local/opt/mysql@5.7/bin:$PATH
-eval "$(anyenv init -)"
-export EDITOR='emacs'
+export EDITOR='vim'
 
 # Mac用の環境変数を設定する
-export HOMEBREW_CASK_OPTS='--appdir=/Applications'
-export ANDROID_HOME=$HOME/Library/Android/sdk
-export JAVA_HOME=`  /usr/libexec/java_home -v 1.8`
-export PKG_CONFIG_PATH=/usr/local/opt/imagemagick@6/lib/pkgconfig
+eval $(/opt/homebrew/bin/brew shellenv)
+export JAVA_HOME=$(/usr/libexec/java_home -v 11.0.21)
 
 # エイリアスを設定する
 alias sh='zsh'
