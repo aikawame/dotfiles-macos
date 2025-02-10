@@ -4,7 +4,6 @@ export EDITOR='vim'
 
 # Mac用の環境変数を設定する
 eval $(/opt/homebrew/bin/brew shellenv)
-export JAVA_HOME=$(/usr/libexec/java_home -v 11.0.21)
 
 # エイリアスを設定する
 alias sh='zsh'
