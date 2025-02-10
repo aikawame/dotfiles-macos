@@ -5,10 +5,8 @@
 *.iml
 /.aws/config
 /.aws/credentials
-/.config/anyenv/
-/.config/configstore/
 /.config/github-copilot/
-/.config/yarn/
+/.config/Alfred/
 /.ssh/config
 /.ssh/id_rsa*
 /.ssh/known_hosts
