@@ -63,7 +63,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -96,7 +96,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -129,7 +129,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -162,7 +162,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -192,7 +192,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -222,7 +222,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -252,7 +252,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -294,7 +294,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -342,7 +342,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -360,7 +360,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -378,7 +378,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -396,7 +396,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -419,7 +419,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -442,7 +442,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -513,7 +513,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -542,7 +542,7 @@
                                             "^dev\\.warp\\.Warp-Stable",
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -570,7 +570,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -593,7 +593,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -616,7 +616,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -642,7 +642,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -665,7 +665,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -687,7 +687,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -718,7 +718,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -745,7 +745,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -772,7 +772,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -800,7 +800,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -828,7 +828,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -883,7 +883,7 @@
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
                                             "^com\\.jetbrains\\.intellij",
-                                            "^com\\.microsoft\\.VSCode"
+                                            "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
