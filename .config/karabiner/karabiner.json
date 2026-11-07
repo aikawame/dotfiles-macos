@@ -62,6 +62,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -95,6 +96,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -128,6 +130,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -161,6 +164,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -191,6 +195,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -221,6 +226,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -251,6 +257,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -293,6 +300,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -341,6 +349,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -359,6 +368,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -377,6 +387,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -395,6 +406,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -418,6 +430,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -441,6 +454,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -512,6 +526,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -541,6 +556,7 @@
                                         "bundle_identifiers": [
                                             "^dev\\.warp\\.Warp-Stable",
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -569,6 +585,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -592,6 +609,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -608,13 +626,14 @@
                         ]
                     },
                     {
-                        "description": "C-g to Double Escape (IntelliJ)",
+                        "description": "C-g to Double Escape (JetBrains)",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -641,6 +660,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -664,6 +684,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -686,6 +707,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -717,6 +739,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -744,6 +767,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -771,6 +795,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -799,6 +824,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -827,6 +853,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
@@ -882,6 +909,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.googlecode\\.iterm2",
+                                            "^com\\.jetbrains\\.rubymine",
                                             "^com\\.jetbrains\\.intellij",
                                             "^com\\.todesktop\\.230313mzl4w4u92"
                                         ],
